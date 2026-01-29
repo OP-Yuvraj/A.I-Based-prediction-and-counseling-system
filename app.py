@@ -16,7 +16,7 @@ st.set_page_config(
 # -------------------------------
 @st.cache_resource
 def load_model():
-    return joblib.load("../models/student_risk_model.pkl")
+    return joblib.load("student_risk_model.pkl")
 
 model = load_model()
 
@@ -93,5 +93,6 @@ if st.button("Predict Risk Level"):
 # -------------------------------
 st.markdown("---")
 st.caption("AI-Based Student Risk Prediction | Developed by Yuvraj")
+
 
 
