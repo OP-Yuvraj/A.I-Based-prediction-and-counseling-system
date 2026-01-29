@@ -1,3 +1,5 @@
+Live:
+[Click Here](https://ai-based-prediction-and-counseling-system-p52ef8hurjxu2phzvfxs.streamlit.app/)
 # AI-Based Student Risk Prediction & Counselling System 🎓
 
 This project predicts **student academic risk levels** using machine learning
@@ -21,3 +23,4 @@ and provides insights for counselling and intervention.
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
